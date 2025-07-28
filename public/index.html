@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PTFS Aircraft Alert</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    #alerts { margin-top: 20px; font-weight: bold; color: red; }
+  </style>
+</head>
+<body>
+  <h1>PTFS Aircraft Alert</h1>
+  <label for="callsignSelect">Choose Your Aircraft:</label>
+  <select id="callsignSelect">
+    <option value="">Loading callsigns...</option>
+  </select>
+  <div id="alerts"></div>
+  <audio id="alert-sound" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
