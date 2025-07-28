@@ -1,17 +1,4 @@
 body {
-  font-family: sans-serif;
-  background: #111;
-  color: #fff;
-  text-align: center;
+  font-family: Arial, sans-serif;
   padding: 20px;
-}
-select {
-  font-size: 16px;
-  padding: 5px;
-}
-#alerts {
-  margin-top: 20px;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
 }
